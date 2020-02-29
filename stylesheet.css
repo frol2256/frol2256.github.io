@@ -1,0 +1,131 @@
+
+body{
+
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  cursor: default;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header{
+    width: 40%;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 5%;
+    left: 10%;
+    color: #333333;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    
+} 
+.header h1{
+    font-weight: 300;
+    font-size: 4.5vw;
+}
+
+.header p{
+    font-family: 'Segoe UI Light';
+    font-size: 1.7vw;
+    font-weight: 300;
+    text-align: left;
+    word-wrap: 100%;
+}
+
+
+.mainImage img{
+  
+  position: absolute;
+  top: 10%;
+  left: 60%;
+
+  animation-name: fadeIn;
+  animation-duration: 4s;
+
+  width: 30%;
+  height: auto;
+
+  
+}
+
+.photos{
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  
+}
+
+.disclaimer{
+  padding-left: 10%;
+  padding-top: 50%;
+  font-size: 1vw;
+}
+
+/*ANIMATIONS*/
+
+/*@-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0,0);
+    }
+  }*/
+  
+ @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+
+    }
+  }
+  
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+
+
+
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
