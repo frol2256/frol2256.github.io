@@ -49,16 +49,22 @@ html {
   width: 30%;
   height: auto;
 
-  
 }
 
 .photos{
   position: absolute;
-  top: 100%;
-  left: 2%;
+  top: 80%;
   width: 100%;
+  left: 0%;
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 3%;
+}
+
+.photos img{
+  width: 20%;
+  height: auto;
   margin: 0 auto;
-  
 }
 
 
@@ -97,8 +103,6 @@ html {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
   }
-
-
 
 
   @-webkit-keyframes fadeIn {
