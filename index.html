@@ -28,20 +28,29 @@
         <img src="img1.jpg">
     </div>
 
-    <div class="disclaimer">
-        <h1>Random images below.</h1>
-    </div>
+    <button type="button" id="DarkModeButton" onclick="DarkMode()">Dark Mode</button>
 
 
     <script>
         function scrollToTop() { 
                 window.scrollTo(0, -10); 
             } 
-    </script>
 
-    <script src="yall.min.js"></script>
-    <script>
-    document.addEventListener("DOMContentLoaded", yall);
+        function DarkMode(){
+            
+            var elem = document.getElementById("DarkModeButton");
+            if (elem.innerHTML=="Dark Mode"){ 
+            elem.innerHTML = "Light Mode";
+            document.body.style.backgroundColor = "#1C1C1C";
+            document.body.style.color = "white";
+            }
+
+            else{
+            elem.innerHTML = "Dark Mode";
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "#333333";    
+            }
+        }
     </script>
 
  </body>

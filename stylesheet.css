@@ -1,12 +1,12 @@
 
 body{
-
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
   background-color: white;
   cursor: default;
   overflow-x: hidden;
   overflow-y: scroll;
+  color: #333333;
 }
 
 html {
@@ -19,7 +19,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     top: 5%;
     left: 10%;
-    color: #333333;
     animation-name: fadeIn;
     animation-duration: 3s;
     
@@ -57,14 +56,11 @@ html {
   position: absolute;
   top: 100%;
   left: 2%;
+  width: 100%;
+  margin: 0 auto;
   
 }
 
-.disclaimer{
-  padding-left: 10%;
-  padding-top: 50%;
-  font-size: 1vw;
-}
 
 /*ANIMATIONS*/
 
