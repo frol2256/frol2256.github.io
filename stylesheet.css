@@ -74,18 +74,16 @@ html {
 
 button {
 position: abolsute;
-color: #494949 !important;
-background: #ffffff;
-border: 3px solid #494949 !important;
+color: #1C1C1C !important;
+background: 'white';
+border: 3px solid #1C1C1C !important;
 transition: all 0.4s ease 0s;
 font-family: 'Open Sans';
 padding: 10px !important; 
 }
 
 button:hover {
-/*color: #ffffff !important;
-background: #f6b93b;
-border-color: #f6b93b !important;*/
+border-color: #f6b93b !important;
 transition: all 0.1s ease 0s;
 }
 
