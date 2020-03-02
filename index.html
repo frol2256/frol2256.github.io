@@ -50,13 +50,14 @@
             elem.innerHTML = "Light Mode";
             document.body.style.backgroundColor = "#1C1C1C";
             document.body.style.color = "white";
+	    document.getElementsByTagName("img").style.borderColor = "white";
             }
 
             else{
             elem.innerHTML = "Dark Mode";
             document.body.style.backgroundColor = "white";
-            document.body.style.color = "#333333";   
-	    document.getElementById("photos").style.borderColor = "white";
+            document.body.style.color = "#333333";
+	    document.getElementsByTagName("img").style.borderColor = "#333333";
             }
         }
     </script>
