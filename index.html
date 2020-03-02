@@ -48,10 +48,11 @@
             var elem = document.getElementById("DarkModeButton");
             if (elem.innerHTML=="Dark Mode"){ 
             elem.innerHTML = "Light Mode";
-	    elem.style.color = "#ffffff";
-	    elem.style.borderColor = "#ffffff";  
-	    elem.style.backgroundColor = "#494949";
-		    
+
+	    elem.style.backgroundColor = "#1C1C1C";
+	    elem.style.color = "white";
+	    elem.style.borderColor = "white";
+
             document.body.style.backgroundColor = "#1C1C1C";
             document.body.style.color = "white";
 	    document.getElementsByTagName("img").style.borderColor = "white";
@@ -59,9 +60,15 @@
 
             else{
             elem.innerHTML = "Dark Mode";
+
+	    elem.innerHTML = "Dark Mode";
             document.body.style.backgroundColor = "white";
-            document.body.style.color = "#333333";
-	    document.getElementsByTagName("img").style.borderColor = "#333333";
+            document.body.style.color = "#1C1C1C";
+	    document.getElementsByTagName("img").style.borderColor = "#1C1C1C";
+
+            elem.style.backgroundColor = "white";
+	    elem.style.color = "#1C1C1C";
+	    elem.style.borderColor = "#1C1C1C";
             }
         }
     </script>
