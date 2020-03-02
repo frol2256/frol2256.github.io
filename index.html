@@ -48,6 +48,10 @@
             var elem = document.getElementById("DarkModeButton");
             if (elem.innerHTML=="Dark Mode"){ 
             elem.innerHTML = "Light Mode";
+	    elem.style.color = "#ffffff";
+	    elem.style.borderColor = "#ffffff";  
+	    elem.style.backgroundColor = "#494949";
+		    
             document.body.style.backgroundColor = "#1C1C1C";
             document.body.style.color = "white";
 	    document.getElementsByTagName("img").style.borderColor = "white";
