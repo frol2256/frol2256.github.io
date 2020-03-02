@@ -42,7 +42,6 @@ html {
 }
 
 
-
 .mainImage img{
   
   position: absolute;
@@ -65,7 +64,6 @@ html {
   display: flex;
   justify-content:space-between;
   padding-bottom: 3%;
-  border: 2px solid #333333;
 }
 
 .photos img{
@@ -91,7 +89,9 @@ border-color: #f6b93b !important;
 transition: all 0.1s ease 0s;
 }
 
-
+img{
+ border: 2px solid #333333; 
+}
 /*ANIMATIONS*/
 
 /*@-webkit-keyframes fadeInDown {
