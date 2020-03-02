@@ -65,6 +65,7 @@ html {
   display: flex;
   justify-content:space-between;
   padding-bottom: 3%;
+  border: 2px solid #333333;
 }
 
 .photos img{
