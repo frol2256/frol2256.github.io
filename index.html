@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <script src="scripts.js"></script>
@@ -22,7 +22,7 @@
         <img src="https://placebear.com/400/400">
     </div>
     <div class="header">
-        <h1>Welcome</h1>
+        <h1 id="heading">Welcome</h1>
 
         <p>Lorem ipsum dolor sit amet, veri quodsi te pri, dictas conceptam eu sit, error senserit per at. Nec enim oporteat indoctum no. Vim ex nobis gubergren, habeo modus ludus mei no.<br><br>An vix equidem omittam, eos animal albucius at, cum scripta phaedrum euripidis no.
 
@@ -54,7 +54,7 @@
 
             document.body.style.backgroundColor = "#1C1C1C";
             document.body.style.color = "#FFFFFF";
-
+            document.getElementById("heading").style.color = "#f6b93b";
             var ilist = document.images;
 
             for(var i = 0; i < ilist.length; i++) {
@@ -69,11 +69,10 @@
 
             document.body.style.backgroundColor = "#FFFFFF";
             document.body.style.color = "#1C1C1C";
-
             elem.style.backgroundColor = "#FFFFFF";
 	        elem.style.color = "#1C1C1C";
 	        elem.style.borderColor = "#1C1C1C";
-
+            document.getElementById("heading").style.color = "#1C1C1C";
             var ilist = document.images;
 
             for(var i = 0; i < ilist.length; i++) {
