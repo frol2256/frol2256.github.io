@@ -74,14 +74,15 @@ html {
 }
 
 button {
+button {
 position: abolsute;
 color: #494949 !important;
-text-decoration: none;
 background: #ffffff;
-padding: 10px;
 border: 4px solid #494949 !important;
 transition: all 0.4s ease 0s;
 font-family: 'Open Sans';
+padding: 10px !important; 
+}
 }
 
 button:hover {
