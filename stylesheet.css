@@ -1,7 +1,6 @@
 
 body{
   overflow: hidden;
-  /*font-family: 'Open Sans', sans-serif;*/
   background-color: white;
   cursor: default;
   overflow-x: hidden;
@@ -27,13 +26,17 @@ html {
     
 } 
 .header h1{
-    font-family: 'Georgia', sans-serif !important;
+    
+    font-family: 'Fira Code', sans-serif !important;
     font-weight: 300;
     font-size: 4.5vw;
 }
 
+
+
 .header p{
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: monospace;
+    /*font-family: 'Open Sans', sans-serif !important;*/
     font-size: 1.2vw;
     font-weight: 300;
     text-align: left;
@@ -156,3 +159,4 @@ img{
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
+
