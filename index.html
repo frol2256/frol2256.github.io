@@ -12,15 +12,13 @@
 
 
 <body onload="scrollToTop()">
-
-<centre>
+	
     <div class="photos">
-        <img src="https://picsum.photos/400">
+        <img id="test" src="https://picsum.photos/400">
         <img src="https://picsum.photos/400/400">
         <img src="https://loremflickr.com/400/400">
         <img src="https://placebear.com/400/400">
     </div>
-</centre>
 
     <div class="header">
         <h1>Welcome</h1>
@@ -49,13 +47,14 @@
             if (elem.innerHTML=="Dark Mode"){ 
             elem.innerHTML = "Light Mode";
 
-            elem.style.color = "white";
-            elem.style.backgroundColor = "#1C1C1C";
-            
-            elem.style.borderColor = "#FFFFFF";
+	    elem.style.color = "#FFFFFF";	    
+	    elem.style.backgroundColor = "#1C1C1C";
+	    elem.style.borderColor = "#FFFFFF";
 
             document.body.style.backgroundColor = "#1C1C1C";
             document.body.style.color = "#FFFFFF";
+		    
+	    document.getElementById("test").style.borderColor="white";
             }
 
             else{
@@ -65,11 +64,10 @@
             document.body.style.color = "#1C1C1C";
 
             elem.style.backgroundColor = "#FFFFFF";
-            elem.style.color = "#1C1C1C";
-            elem.style.borderColor = "#1C1C1C";
-		    
+	    elem.style.color = "#1C1C1C";
+	    elem.style.borderColor = "#1C1C1C";
+	    
             }
-            
         }
     </script>
 
