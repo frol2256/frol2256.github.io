@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -37,6 +36,7 @@
 
     <button type="button" id="DarkModeButton" onclick="DarkMode()">Dark Mode</button>
 
+	<button type="button" id ="loginButton">Login with Steam</button>
     <script>
         function scrollToTop() { 
                 window.scrollTo(0, -10); 
