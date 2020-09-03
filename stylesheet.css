@@ -61,12 +61,12 @@ html {
 
 .photos{
   position: absolute;
-  top: 90%;
+  top: 85%;
   width: 100%;
   left: 0%;
   display: flex;
   justify-content:space-between;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .photos img{
@@ -98,6 +98,30 @@ button:hover {
 
 img{
  border: 2px solid #333333; 
+}
+
+.footer {
+  position: fixed;
+  padding: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f222b;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9vw;
+}
+
+a{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 /*ANIMATIONS*/
