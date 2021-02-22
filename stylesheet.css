@@ -37,8 +37,9 @@ html {
 
 
 .header p{
-    font-family: monospace;
-    /*font-family: 'Open Sans', sans-serif !important;*/
+    /*font-family: monospace;
+    font-family: 'Open Sans', sans-serif !important;*/
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1.2vw;
     font-weight: 300;
     text-align: left;
