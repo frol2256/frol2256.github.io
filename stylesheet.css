@@ -78,7 +78,7 @@ html {
 }
 
 #DarkModeButton {
-  position: abolsute;
+  position: fixed;
   font-family: "Fira Code";
   color: #1C1C1C;
   background-color: white;
