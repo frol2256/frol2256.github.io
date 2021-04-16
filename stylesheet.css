@@ -77,7 +77,7 @@ html {
   margin: 0 auto;
 }
 
-button {
+#DarkModeButton {
   position: abolsute;
   font-family: "Fira Code";
   color: #1C1C1C;
@@ -93,7 +93,7 @@ button {
   padding-bottom: 3px;
 }
 
-button:hover {
+#DarkModeButton:hover {
   border-color: #f6b93b !important;
   transition: all 0.1s ease 0s;
 }
