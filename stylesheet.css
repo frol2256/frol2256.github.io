@@ -108,7 +108,7 @@ img{
   background-color: rgba(31, 34, 43, 0.9);
   color: white;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: monospace;
   font-size: 0.9vw;
 }
 
